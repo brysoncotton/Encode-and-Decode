@@ -1,6 +1,6 @@
 # Encode-and-Decode
 
-Its just a simple program to jumble up words to make text documents unreadable, then unscramble them so you can read it again.'
+Its just a simple program to jumble up words to make text documents unreadable, then unscramble them so you can read it again.
 
 CHANGELOG
 
