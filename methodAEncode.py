@@ -1,7 +1,8 @@
 import codecs
 from tkinter import filedialog as fd
 
-fin = fd.askopenfilename(title="Open the file you want to encrypt")
+fin = fd.askopenfilename(title="Open the file you want to encrypt", initialdir='/home/bryson',
+                         filetypes=(("text files", "*.txt"), ("all files", "*.*")))
 
 f = open(fin, 'r')
 fileData = f.read()

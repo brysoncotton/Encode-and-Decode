@@ -1,7 +1,8 @@
 from tkinter import filedialog as fd
 import codecs
 
-fin = fd.askopenfilename()
+fin = fd.askopenfilename(title="Open the file you want to decrypt", initialdir='/home/bryson',
+                         filetypes=(("text files", "*.txt"), ("all files", "*.*")))
 
 f = open(fin, 'r')
 firstLine = f.readline()
